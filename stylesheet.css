@@ -14,6 +14,10 @@ header{
     z-index:2;
 }
 
+header h1{
+    padding-left:20px;
+}
+
 .topButton{
     float:left;
     line-height:80px; /*行間の指定*/
@@ -28,9 +32,15 @@ header{
 }
 
 .headline h1{
-    line-height:1200px;
+    padding-top:500px;
     color:white;
     font-size:100px;
+    opacity: 0.8;
+}
+
+.headline h2{
+    color:white;
+    font-size:35px;
     opacity:0.8;
 }
 
@@ -52,11 +62,21 @@ nav{
 }
 
 .content{
+    background-color: rgb(226, 225, 226)
+}
+
+.contentTitle{
+    padding-top:30px;
+    font-size:50px;
+    color:white;
+}
+
+.contents{
     display:flex; /*要素を横並びにする*/
     flex-wrap:wrap;
     padding-bottom:100px;
-    background-color: rgb(226, 225, 226)
 }
+
 
 /* contentsの写真のところ */
 .open {
@@ -72,6 +92,7 @@ nav{
 
 .zero h1, .first h1, .second h1, .thrid h1, .forth h1, .fifth h1{
     text-align:center;
+    padding-bottom:10px;
 }
 
 .zero img, .first img, .second img, .third img, .forth img, .fifth img{
@@ -128,3 +149,44 @@ ul{
     cursor:pointer;
 }
 
+.contentSecond{
+    background-image: url("./photo/01cd25415747db7936a75e646b38930ca4f7a41f5b.jpg");
+    background-size:cover;
+    height:800px;
+}
+
+.location{
+    /* 背景画像の上にrgbaを置いて背景画像のみを透過させる */
+    background: rgba(255,255,255,.5); 
+    height:800px;
+}
+
+.location h1{
+    padding-top:10px;
+    font-size:50px;
+    color:white;
+}
+
+.location p{
+    margin-top:30px;
+    margin-left:30px;
+    font-size:20px;
+    color:white;
+    display:inline-block;
+    width:60%;
+}
+
+.map{
+    padding-left:50px;
+    padding-top:30px;
+    text-align: center;
+}
+
+.map video{
+    height:500px;
+}
+
+.map img{
+    height:500px;
+    padding-left:30px;
+}
