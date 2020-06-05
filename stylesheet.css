@@ -51,27 +51,32 @@ nav{
     display: none;   
 }
 
+.content{
+    display:flex; /*要素を横並びにする*/
+    flex-wrap:wrap;
+    padding-bottom:100px;
+    background-color: rgb(226, 225, 226)
+}
+
+/* contentsの写真のところ */
 .open {
     display:block;
 }
 
-.first{
-    padding-top:20px;
+.zero, .first, .second, .third, .forth, .fifth{
+    padding-top:100px;
     margin:0 auto;
-    width:80%;
+    width:33%;
+    position: relative; /*nextとprevのボタンのため*/
 }
 
-.first h1{
+.zero h1, .first h1, .second h1, .thrid h1, .forth h1, .fifth h1{
     text-align:center;
 }
 
-.first img{
+.zero img, .first img, .second img, .third img, .forth img, .fifth img{
     width:60%;
     height:10%;
-}
-
-.first{
-    position: relative; /*nextとprevのボタンのため*/
 }
 
 ul{
@@ -79,41 +84,43 @@ ul{
 }
 
 /*prev,nextを消したことによって画像をずれないようにする*/
-.buttonSelect:after{
+.buttonSelectI:after, .buttonSelect:after, .buttonSelectBlue:after, 
+.buttonSelectLondon:after,.buttonSelectP:after, .buttonSelectI:after{
     content:"";
     clear:both;   /*floatプロパティの解除*/
     display:block;
 }
 
-.prev{
+.prevI, .prev, .prevBlue, .prevLondon, .prevP, .prevS{
     cursor:pointer;
     float:left;
     display:none;
     position: absolute;;
     z-index:1;
-    top:50%;
+    top:60%;
     left:10%
 }
 
-.next{
+.nextI, .next, .nextBlue, .nextLondon, .nextP, .nextS{
     cursor:pointer;
     float:right;
     position: absolute;;
     z-index:1;
-    top:50%;
+    top:60%;
     left:85%;
 }
 
-.slide{
+.slideI, .slide, .slideBlue, .slideLondon, .slideP, .slideS{
     display:none;
 }
 
 /* class名にactiveがついたら表示する */
-.active {
+.activeI, .active, .activeBlue, .activeLondon, .activeP, .activeS {
     display: block;
 }
 
-.buttonSecond{
+.buttonSecondI, .buttonSecond, .buttonSecondBlue, 
+.buttonSecondLondon, .buttonSecondP, .buttonSecondS{
     display:inline-block;
     color:rgb(109, 221, 230);
     background-color: rgb(77, 123, 221);
