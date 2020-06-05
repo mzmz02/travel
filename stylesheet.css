@@ -55,22 +55,22 @@ nav{
     display:block;
 }
 
-.top{
+.first{
     padding-top:20px;
     margin:0 auto;
     width:80%;
 }
 
-top h1{
+.first h1{
     text-align:center;
 }
 
-.top img{
+.first img{
     width:60%;
     height:10%;
 }
 
-.top{
+.first{
     position: relative; /*nextとprevのボタンのため*/
 }
 
