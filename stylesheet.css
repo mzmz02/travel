@@ -71,6 +71,10 @@ nav{
     color:white;
 }
 
+.content h1{
+    color:white;
+}
+
 .contents{
     display:flex; /*要素を横並びにする*/
     flex-wrap:wrap;
@@ -157,7 +161,7 @@ ul{
 
 .location{
     /* 背景画像の上にrgbaを置いて背景画像のみを透過させる */
-    background: rgba(255,255,255,.5); 
+    background: rgba(255,255,255,0.5); 
     height:800px;
 }
 
@@ -183,10 +187,41 @@ ul{
 }
 
 .map video{
-    height:500px;
+    height:450px;
 }
 
 .map img{
-    height:500px;
+    height:450px;
     padding-left:30px;
 }
+
+.contentThird h1{
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size:50px;
+    color:rgb(168, 166, 166);
+}
+
+.foods{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.food{
+    flex:auto;
+    width:20%;
+    padding:0;
+}
+
+.foods img{
+    width:400px;
+    height:300px;
+    opacity:0.5;
+}
+
+.foods img:hover{
+    width:400px;
+    height:300px;
+    opacity:1;
+}
+
