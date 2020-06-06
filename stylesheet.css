@@ -82,6 +82,9 @@ nav{
     padding-bottom:100px;
 }
 
+.icon{
+    font-size:3em;
+}
 
 /* contentsの写真のところ */
 .open {
@@ -188,11 +191,11 @@ ul{
 }
 
 .map video{
-    height:450px;
+    height:400px;
 }
 
 .map img{
-    height:450px;
+    height:400px;
     padding-left:30px;
 }
 

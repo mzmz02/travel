@@ -1,0 +1,123 @@
+@media all and (max-width: 1200px){
+
+  .location{
+    height:700px;
+  }
+
+  .contentSecond{
+    height:700px;
+  }
+
+  .map video, .map img{
+    height:350px;
+  }
+}
+
+@media all and (max-width: 1100px){
+
+  .location{
+    height:900px;
+  }
+
+  .contentSecond{
+    height:900px;
+  }
+
+}
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+  .zero, .first, .second, .third, .forth, .fifth{
+    width:50%;
+  } 
+
+  .icon{
+    font-size:2em;
+  }
+
+  .prevI, .prev, .prevBlue, .prevLondon, .prevP, .prevS{
+    top:60%;
+    left:7%
+  }
+
+  .location p{
+    font-size:13px;
+    font-weight: bold;
+    margin-top:0px;
+  }
+
+  .map{
+    /* 縦に並べる */
+    flex-direction:column; 
+  }
+  
+  .map video{
+    height:300px;
+    margin:0 auto; 
+  }
+
+  .map img{
+    height:300px;
+    margin:0 auto; 
+    padding-top:10px;
+  }
+
+  .foods img{
+    width:200px;
+    height:150px;
+  }
+
+  .foods img:hover{
+    width:200px;
+    height:150px;
+  }
+}
+
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 700px) {
+
+  .headline h1{
+    padding-top:300px;
+    font-size:50px;
+  }
+
+  .headline h2{
+    font-size:25px;
+  }
+
+  .headline{
+    height:800px;
+  }
+
+  .zero, .first, .second, .third, .forth, .fifth{
+    width:100%;
+  } 
+
+  .location{
+    height:1000px;
+  }
+
+  .contentSecond{
+    height:1000px;
+  }
+
+  .location p{
+    font-size:13px;
+    font-weight: bold;
+  }
+  
+  .map video{
+    height:350px;
+  }
+
+  .map img{
+    height:350px;
+    padding-top:30px;
+    width:400px;
+    padding-left:0;
+  }
+
+
+}
