@@ -41,25 +41,26 @@
     left:7%
   }
 
+  .location{
+    height:1100px;
+  }
+
+  .contentSecond{
+    height:1100px;
+  }
+
   .location p{
     font-size:13px;
     font-weight: bold;
     margin-top:0px;
   }
-
-  .map{
-    /* 縦に並べる */
-    flex-direction:column; 
-  }
   
   .map video{
-    height:300px;
-    margin:0 auto; 
+    height:400px;
   }
 
   .map img{
-    height:300px;
-    margin:0 auto; 
+    height:400px;
     padding-top:10px;
   }
 
