@@ -77,7 +77,7 @@
 
 
 /* モバイル向けレイアウト */
-@media all and (max-width: 750px) {
+@media all and (max-width: 800px) {
 
   .headline h1{
     padding-top:300px;
