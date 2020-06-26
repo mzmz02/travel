@@ -15,6 +15,23 @@
         
         <header>
             <h1 class="topButton">TRAVEL</h1>
+
+            <div class="navigation">
+                <span class="fas fa-bars naviTop"></span>
+                <nav>
+                    <ul>
+                        <li><a href="#iceland">Iceland</a></li>
+                        <li><a href="#aurora">Aurora</a></li>
+                        <li><a href="#blueLagoon">BLUE LAGOON</a></li>
+                        <li><a href="#london">London</a></li>
+                        <li><a href="#paris">Paris</a></li>
+                        <li><a href="#iceland">Iceland</a></li>
+                        <li><a href="#spain">Spain</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#food">Foods</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div class="headline">
@@ -22,26 +39,12 @@
             <h2>2020/02/14~02/28</h2>
         </div>
 
-        <div class="navigation">
-            <div class="naviTitle">Navigation</div>
-            <nav>
-                <ul>
-                    <li><a href="#aurora">Aurora</a></li>
-                    <li><a href="#blueLagoon">BLUE LAGOON</a></li>
-                    <li><a href="#london">London</a></li>
-                    <li><a href="#paris">Paris</a></li>
-                    <li><a href="#iceland">Iceland</a></li>
-                    <li><a href="#spain">Spain</a></li>
-                </ul>
-            </nav>
-        </div>
-
         
         <div class="content">
             <h1 class="contentTitle">Photographs</h1>
             <div class="contents">
                 <div class="zero">
-                    <h1 id=iceland>Iceland</h1>
+                    <h1 id=iceland class="contentsTitle">Iceland</h1>
                     <div class="buttonSelectI">
                         <div class="buttonFirstI prevI"><i class="fas fa-chevron-circle-left icon"></i></div>
                         <div class="buttonFirstI nextI"><i class="fas fa-chevron-circle-right icon"></i></div>
@@ -63,7 +66,7 @@
                 </div>
     
                 <div class="first">
-                    <h1 id=aurora>Aurora in Iceland</h1>
+                    <h1 id=aurora class="auroraTitle">Aurora in Iceland</h1>
                     <div class="buttonSelect">
                         <div class="buttonFirst prev"><i class="fas fa-chevron-circle-left icon"></i></div>
                         <div class="buttonFirst next"><i class="fas fa-chevron-circle-right icon"></i></div>
@@ -101,7 +104,7 @@
                 </div>
     
                 <div class="third">
-                    <h1 id=london>London</h1>
+                    <h1 id=london class="contentsTitle">London</h1>
                     <div class="buttonSelectLondon">
                         <div class="buttonFirstLondon prevLondon"><i class="fas fa-chevron-circle-left  icon"></i></div>
                         <div class="buttonFirstLondon nextLondon"><i class="fas fa-chevron-circle-right icon"></i></div>
@@ -123,7 +126,7 @@
                 </div>
     
                 <div class="forth">
-                    <h1 id=paris>Paris</h1>
+                    <h1 id=paris class="contentsTitle">Paris</h1>
                     <div class="buttonSelectP">
                         <div class="buttonFirstP prevP"><i class="fas fa-chevron-circle-left icon"></i></div>
                         <div class="buttonFirstP nextP"><i class="fas fa-chevron-circle-right icon"></i></div>
@@ -145,7 +148,7 @@
                 </div>
     
                 <div class="fifth">
-                    <h1 id=spain>Spain</h1>
+                    <h1 id=spain class="contentsTitle">Spain</h1>
                     <div class="buttonSelect">
                         <div class="buttonFirstS prevS"><i class="fas fa-chevron-circle-left icon"></i></div>
                         <div class="buttonFirstS nextS"><i class="fas fa-chevron-circle-right icon"></i></div>
@@ -168,7 +171,7 @@
 
         <div class="contentSecond">
             <div class="location">
-                <h1>Map</h1>
+                <h1 id="map">Map</h1>
                 <p>2週間かけてロンドン、アイスランド、パリ、バルセロナ、マドリードを回りました。<br>図にあるようにパリからバルセロナ、バルセロナからマドリードの移動は電車を使いました。</p>
                 <div class="map">
                     <!-- loopde：繰り返し再生　autoplay:自動再生 muted：消音 -->
@@ -179,12 +182,8 @@
             </div>
         </div>
 
-        <script>
-            $("img.lazy").lazyload();
-        </script>
-
         <div class="contentThird">
-            <h1>Foods</h1>
+            <h1 id="food">Foods</h1>
             <div class="foods">
                 <img class="food lazy" img src="./photo/S__520912905.jpg" data-original="./photo/S__520912905.jpg">
                 <img class="food lazy" img src="./photo/S__520912902.jpg" data-original="./photo/S__520912902.jpg">

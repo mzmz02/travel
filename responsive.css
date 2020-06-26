@@ -1,8 +1,4 @@
-@media all and (max-width: 1200px){
-
-  .blueTitle{
-    font-size:30px;
-  }
+@media all and (max-width: 1300px){
 
   .location{
     height:700px;
@@ -19,19 +15,22 @@
 
 
 /* タブレット向けレイアウト */
-@media all and (max-width: 1100px){
+@media all and (max-width: 1300px){
 
   .zero, .first, .second, .third, .forth, .fifth{
     width:50%;
   } 
 
   .icon{
-    font-size:2em;
+    font-size:3em;
   }
 
   .prevI, .prev, .prevBlue, .prevLondon, .prevP, .prevS{
-    top:60%;
-    left:7%
+    top:70%;
+  }
+
+  .nextI, .next, .nextBlue, .nextLondon, .nextP, .nextS{
+    top:70%;
   }
 
   .location{
@@ -87,13 +86,25 @@
     height:800px;
   }
 
-  .content h1{
-    font-size:40px;
+  .contentsTitle{
+    font-size:60px;
+  }
+
+  .contentsTitle, .blueTitle, .auroraTitle{
+    font-size:50px;
   }
 
   .zero, .first, .second, .third, .forth, .fifth{
     width:100%;
   } 
+
+  .prevI, .prev, .prevBlue, .prevLondon, .prevP, .prevS{
+    top:65%;
+  }
+
+  .nextI, .next, .nextBlue, .nextLondon, .nextP, .nextS{
+    top:65%;
+  }
 
   .location{
     height:1000px;

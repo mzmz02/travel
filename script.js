@@ -6,16 +6,22 @@ $(function(){
   });
 
   //navigationの操作
-  $('.naviTitle').click(function(){
+  $('.naviTop').click(function(){
     if($('nav').hasClass('open')){
       $('nav').removeClass('open');
       $('nav').slideDown();
+
+      $('.navigation').children('span').removeClass().addClass('fas fa-times naviTop');
+
     }
     else{
       $('nav').addClass('open');
       $('nav').slideUp();
+
+      $('.navigation').children('span').removeClass().addClass('fas fa-bars naviTop');
     }
   });
+
 
   //Icelandのとこ
   function buttonActionI() {
