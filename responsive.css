@@ -1,5 +1,9 @@
 @media all and (max-width: 1200px){
 
+  blueTitle{
+    font-size:30px;
+  }
+
   .location{
     height:700px;
   }
@@ -79,6 +83,10 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 1000px) {
+
+  .icon{
+    font-size:3em;
+  }
 
   .headline h1{
     padding-top:300px;
