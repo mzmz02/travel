@@ -7,6 +7,7 @@
         <!-- FontAwesomeの読み込み -->
         <script src="https://kit.fontawesome.com/a1de0a5eef.js" crossorigin="anonymous"></script> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/jquery.lazyload.min.js"></script>
         <title>travel</title>
     </head>
     
@@ -172,38 +173,41 @@
                 <div class="map">
                     <!-- loopde：繰り返し再生　autoplay:自動再生 muted：消音 -->
                     <!-- playsinline：要素の再生エリア内で再生する(スマホ用) -->
-                    <video src="./photo/613162015.643247.mp4" loop autoplay muted playsinline onclick=”this.play();”></video>
+                    <video src="./photo/613162015.643247.mp4" loop autoplay muted playsinline></video>
                     <img src="./photo/map.png">
                 </div>
             </div>
         </div>
 
+        <script>
+            $("img.lazy").lazyload();
+        </script>
+
         <div class="contentThird">
             <h1>Foods</h1>
             <div class="foods">
-                <img class="food" src="./photo/S__520912905.jpg">
-                <img class="food" src="./photo/S__520912902.jpg">
-                <img class="food" src="./photo/S__520978460.jpg">
-                <img class="food" src="./photo/S__520912911.jpg">
-                <img class="food" src="./photo/S__520912910.jpg">
+                <img class="food lazy" img src="./photo/S__520912905.jpg" data-original="./photo/S__520912905.jpg">
+                <img class="food lazy" img src="./photo/S__520912902.jpg" data-original="./photo/S__520912902.jpg">
+                <img class="food lazy" img src="./photo/S__520978460.jpg" data-original="./photo/S__520978460.jpg">
+                <img class="food lazy" img src="./photo/S__520912911.jpg" data-original="./photo/S__520912911.jpg">
+                <img class="food lazy" img src="./photo/S__520912910.jpg" data-original="./photo/S__520912910.jpg">
 
-                <img class="food" src="./photo/S__520978439.jpg">
-                <img class="food" src="./photo/S__522002436.jpg">
-                <img class="food" src="./photo/S__520912900.jpg">
-                <img class="food" src="./photo/S__522002452.jpg">
-                <img class="food" src="./photo/S__522002438.jpg">
+                <img class="food lazy" img src="./photo/S__520978439.jpg" data-original="./photo/S__520978439.jpg">
+                <img class="food lazy" img src="./photo/S__522002436.jpg" data-original="./photo/S__522002436.jpg">
+                <img class="food lazy" img src="./photo/S__520912900.jpg" data-original="./photo/S__520912900.jpg">
+                <img class="food lazy" img src="./photo/S__522002452.jpg" data-original="./photo/S__522002452.jpg">
+                <img class="food lazy" img src="./photo/S__522002438.jpg" data-original="./photo/S__522002438.jpg">
 
-                <img class="food" src="./photo/S__522002439.jpg">
-                <img class="food" src="./photo/S__522002444.jpg">
-                <img class="food" src="./photo/S__522002448.jpg">
-                <img class="food" src="./photo/S__522002449.jpg">
-                <img class="food" src="./photo/S__522002440.jpg">
+                <img class="food lazy" img src="./photo/S__522002439.jpg" data-original="./photo/S__522002439.jpg">
+                <img class="food lazy" img src="./photo/S__522002444.jpg" data-original="./photo/S__522002444.jpg">
+                <img class="food lazy" img src="./photo/S__522002448.jpg" data-original="./photo/S__522002448.jpg">
+                <img class="food lazy" img src="./photo/S__522002449.jpg" data-original="./photo/S__522002449.jpg">
+                <img class="food lazy" img src="./photo/S__522002440.jpg" data-original="./photo/S__522002440.jpg">
 
-                <img class="food" src="./photo/S__522002443.jpg">
-                <img class="food" src="./photo/S__522002451.jpg">
-                <img class="food" src="./photo/S__522002450.jpg">
-                <img class="food" src="./photo/S__520912904.jpg">
-                <img class="food" src="./photo/S__520912909.jpg">
+                <img class="food lazy" img src="./photo/S__522002443.jpg" data-original="./photo/S__522002443.jpg">
+                <img class="food lazy" img src="./photo/S__522002450.jpg" data-original="./photo/S__522002450.jpg">
+                <img class="food lazy" img src="./photo/S__520912904.jpg" data-original="./photo/S__520912904.jpg">
+                <img class="food lazy" img src="./photo/S__520912909.jpg" data-original="./photo/S__520912909.jpg">
                 
             </div>
         </div>
