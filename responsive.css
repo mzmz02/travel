@@ -1,6 +1,6 @@
 @media all and (max-width: 1200px){
 
-  blueTitle{
+  .blueTitle{
     font-size:30px;
   }
 
@@ -17,18 +17,6 @@
   }
 }
 
-/* @media all and (max-width: 1100px){
-
-  .location{
-    height:900px;
-  }
-
-
-  .contentSecond{
-    height:900px;
-  }
-
-} */
 
 /* タブレット向けレイアウト */
 @media all and (max-width: 1100px){
@@ -55,7 +43,6 @@
   }
 
   .location p{
-    font-size:13px;
     font-weight: bold;
     margin-top:0px;
   }
@@ -90,15 +77,18 @@
 
   .headline h1{
     padding-top:300px;
-    font-size:50px;
   }
 
   .headline h2{
-    font-size:25px;
+    font-size:40px;
   }
 
   .headline{
     height:800px;
+  }
+
+  .content h1{
+    font-size:40px;
   }
 
   .zero, .first, .second, .third, .forth, .fifth{
@@ -114,7 +104,6 @@
   }
 
   .location p{
-    font-size:13px;
     font-weight: bold;
   }
   

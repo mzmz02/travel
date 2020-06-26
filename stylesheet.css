@@ -32,9 +32,9 @@ header h1{
 }
 
 .headline h1{
+    font-size:100px;
     padding-top:500px;
     color:white;
-    font-size:100px;
     opacity: 0.8;
 }
 
@@ -74,6 +74,7 @@ nav{
 
 .content h1{
     color:white;
+    font-size:70px;
 }
 
 .contents{
@@ -171,18 +172,18 @@ ul{
 
 .location h1{
     padding-top:10px;
-    font-size:50px;
+    font-size:70px;
     color:white;
 }
 
 .location p{
+    font-size:30px;
     margin-top:30px;
     margin-left:30px;
-    font-size:20px;
     color:white;
     display:inline-block;
     width:60%;
-    background-color:rgba(212, 212, 219, 0.507);
+    background-color:rgba(178, 178, 184, 0.61);
 }
 
 .map{
