@@ -70,6 +70,24 @@
 /* スマホ向けレイアウト */
 @media all and (max-width: 1000px) {
 
+  header{
+    height:100px;
+  }
+
+  .topButton{
+    line-height:120px; /*行間の指定*/
+    font-size:60px;
+  }
+
+  .naviTop{
+    padding:15px 20px 0 0;
+    font-size:5em;
+  }
+
+  nav li{
+    padding:20px 10px 20px 20px;
+  }
+
   .icon{
     font-size:3em;
   }
