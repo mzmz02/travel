@@ -26,7 +26,7 @@
 }
 
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1000px) and (min-width: 768px) {
 
   .zero, .first, .second, .third, .forth, .fifth{
     width:50%;
@@ -76,8 +76,8 @@
 }
 
 
-/* モバイル向けレイアウト */
-@media all and (max-width: 900px) {
+/* スマホ向けレイアウト */
+@media all and (max-width: 767px) {
 
   .headline h1{
     padding-top:300px;
