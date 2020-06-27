@@ -41,7 +41,7 @@ header h1{
 }
 
 nav{
-    height:60vh;
+    height:100vh;
     overflow-y: scroll;
     width:80vw;
     display:none;

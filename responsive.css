@@ -91,6 +91,7 @@
 
   nav{
     margin-top:90px;
+    height:50vh;
   }
 
   nav li{
@@ -144,7 +145,7 @@
   .location p{
     font-weight: bold;
   }
-  
+
   .map img{
     padding-top:30px;
     width:400px;
