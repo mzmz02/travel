@@ -41,7 +41,7 @@ header h1{
 }
 
 nav{
-    height:100vh;
+    height:60vh;
     overflow-y: scroll;
     width:80vw;
     display:none;
@@ -51,11 +51,11 @@ nav{
 }
 
 nav li{
-    height:20vh;
     font-size:60px;
     color:white;
     padding:10px 10px 20px 20px;
     text-align: center; 
+    display:block;
 }
 
 
