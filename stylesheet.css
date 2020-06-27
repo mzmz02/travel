@@ -41,9 +41,9 @@ header h1{
 }
 
 nav{
-    height:100vh;
+    height:90vh;
     overflow-y: scroll;
-    width:80vw;
+    width:70vw;
     display:none;
     background-color:rgba(58, 124, 223,0.7);
     border-radius: 20px;
