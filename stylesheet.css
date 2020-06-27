@@ -46,12 +46,13 @@ nav{
     width:80vw;
     display:none;
     background-color:rgba(58, 124, 223,0.7);
-    font-size:40px;
     border-radius: 20px;
     margin-top:80px;
 }
 
 nav li{
+    height:20vh;
+    font-size:60px;
     color:white;
     padding:10px 10px 20px 20px;
     text-align: center; 
