@@ -1,11 +1,11 @@
 @media all and (max-width: 1300px){
 
   .location{
-    height:700px;
+    height:1000px;
   }
 
   .contentSecond{
-    height:700px;
+    height:1000px;
   }
 
   .map video, .map img{
@@ -15,10 +15,15 @@
 
 
 /* タブレット向けレイアウト */
-@media all and (max-width: 1300px){
+@media all and (max-width: 1200px){
+
+  .contentTitle{
+    padding-top:100px;
+  }
 
   .zero, .first, .second, .third, .forth, .fifth{
     width:50%;
+    padding-top:0px;
   } 
 
   .icon{
@@ -26,19 +31,19 @@
   }
 
   .prevI, .prev, .prevBlue, .prevLondon, .prevP, .prevS{
-    top:70%;
+    top:60%;
   }
 
   .nextI, .next, .nextBlue, .nextLondon, .nextP, .nextS{
-    top:70%;
+    top:60%;
   }
 
   .location{
-    height:1100px;
+    height:1350px;
   }
 
   .contentSecond{
-    height:1100px;
+    height:1350px;
   }
 
   .location p{
@@ -129,26 +134,37 @@
   }
 
   .location{
-    height:1000px;
+    height:1200px;
   }
 
   .contentSecond{
-    height:1000px;
+    height:1200px;
   }
 
   .location p{
     font-weight: bold;
   }
   
-  .map video{
+  /* .map video{
     height:350px;
-  }
+  } */
 
   .map img{
-    height:350px;
+    /* height:350px; */
     padding-top:30px;
     width:400px;
     padding-left:0;
+  }
+
+  @media all and (max-width: 900px){
+    .location{
+      height:1500px;
+    }
+  
+    .contentSecond{
+      height:1500px;
+    }
+  
   }
 
 

@@ -58,8 +58,15 @@ nav li{
 }
 
 
-#iceland, #aurora, #blueLagoon, #london, #paris, #iceland, #spain, #map, #food{
+#iceland, #aurora, #blueLagoon, #london, #paris, #iceland, #spain, #food{
+    /* display:block; */
+    margin-top:-100px;
     padding-top:150px;
+}
+
+#map{
+    margin-top:-100px;
+    padding-top:100px;
 }
 
 .headline{
@@ -83,11 +90,12 @@ nav li{
 }
 
 .content{
-    background-color: rgb(226, 225, 226)
+    background-color: rgb(226, 225, 226);
+    padding-bottom:100px;
 }
 
 .contentTitle{
-    padding-top:30px;
+    padding-top:50px;
     font-size:70px;
     color:white;
 }
@@ -191,17 +199,16 @@ ul{
 .contentSecond{
     background-image: url("./photo/01cd25415747db7936a75e646b38930ca4f7a41f5b.jpg");
     background-size:cover;
-    height:800px;
+    height:1000px;
 }
 
 .location{
     /* 背景画像の上にrgbaを置いて背景画像のみを透過させる */
     background: rgba(255,255,255,0.6); 
-    height:800px;
+    height:1000px;
 }
 
 .location h1{
-    padding-top:10px;
     font-size:70px;
     color:white;
 }
