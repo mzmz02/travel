@@ -7,17 +7,21 @@ $(function(){
 
   //navigationの操作
   $('.naviTop').click(function(){
+    // メニューバーが開かれているなら
     if($('nav').hasClass('open')){
       $('nav').removeClass('open');
       $('nav').slideDown();
 
+      // Font Awesomeを×にする
       $('.navigation').children('span').removeClass().addClass('fas fa-times naviTop');
 
     }
+    // メニューバーが開かれていないなら
     else{
       $('nav').addClass('open');
       $('nav').slideUp();
 
+      // Font Awesomeをメニューバーにする
       $('.navigation').children('span').removeClass().addClass('fas fa-bars naviTop');
     }
   });
