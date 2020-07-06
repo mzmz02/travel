@@ -1,5 +1,6 @@
-# travel
+# Europe Travel
 旅行の魅力を伝えるために旅行日記をホームページで作成している。
+ProgateでHTML/CSS/jQueryを学んだのでその知識をアウトプットするためにサイトを作成した。
 
 # Dependency
 HTML/CSS/jQueryを用いている。
