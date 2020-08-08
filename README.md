@@ -1,6 +1,8 @@
 # Europe Travel
 旅行の魅力を伝えるために旅行日記をホームページで作成している。
 ProgateでHTML/CSS/jQueryを学んだのでその知識をアウトプットするためにサイトを作成した。
+<img width="952" alt="travel" src="https://user-images.githubusercontent.com/65856455/89713085-3d1da780-d9d0-11ea-9ef0-7bde7d8d5285.PNG">
+
 
 # Dependency
 HTML/CSS/jQueryを用いている。
